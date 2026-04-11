@@ -30,7 +30,7 @@ Comparison of diffusion-based channel estimators on CDL-D dataset:
 Impact of (a) prediction objective and (b) loss function on NMSE of
 the proposed approach.
 
-[<img src="assets/Fig4a.jpg" height="300px"/>](https://imgsli.com/MzkzNjU5)[<img src="assets/Fig4b.jpg" height="300px"/>](https://imgsli.com/MzkzNjY5)
+[<img src="assets/Fig4a.jpg" height="400px"/>](https://imgsli.com/MzkzNjU5)[<img src="assets/Fig4b.jpg" height="400px"/>](https://imgsli.com/MzkzNjY5)
 
 
 ## ⚙ Preparation
