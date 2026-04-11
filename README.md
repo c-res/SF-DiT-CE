@@ -31,8 +31,8 @@ During inference, we first obtain an initial channel estimate using the least-sq
 
 * Impact of the prediction objective and loss function on NMSE
 
-[<img src="assets/Fig4a.jpg" height="300px"/>](https://imgsli.com/MzkzNjU5)
-[<img src="assets/Fig4b.jpg" height="300px"/>](https://imgsli.com/MzkzNjY5)
+[<img src="assets/Fig4a.jpg" height="400px"/>](https://imgsli.com/MzkzNjU5)
+[<img src="assets/Fig4b.jpg" height="400px"/>](https://imgsli.com/MzkzNjY5)
 
 ---
 
