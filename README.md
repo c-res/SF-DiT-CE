@@ -159,8 +159,8 @@ If you find our work inspiring, please consider citing:
 ---
 ## Notes:
 
-Before adding noise, the channel data are globally normalized by separately normalizing the real and imaginary parts. Hence, the average complex channel power in the normalized domain is approximately 2.
-For the defined SNR in the code (the actual SNR), we set $\gamma= 10^{(-SNR/10)}$ and generate complex AWGN as $\mathbf{N} = \sqrt{\gamma} (\mathbf{N}_R + j \mathbf{N}_I)$, where $\mathbf{N}_R$ and $\mathbf{N}_I$ are independent standard Gaussian random variables.
+Before adding noise, the channel data are globally normalized by separately normalizing the real and imaginary parts using the training-set statistics. Hence, the average complex channel power in the normalized domain is approximately 2. 
+For the defined SNR in the code (the actual SNR), we set $\gamma= 10^{(-SNR/10)}$ and generate complex noise as $\mathbf{N} = \sqrt{\gamma} (\mathbf{N}_R + j \mathbf{N}_I)$, where $\mathbf{N}_R$ and $\mathbf{N}_I$ are independent standard Gaussian random variables. 
 Therefore, $\gamma$ denotes the per-real-dimension noise variance, while the complex noise power is $\mathbb{E}[|\mathbf{N}|^2] = 2\gamma$.
 Since the pilot matrix and angular-domain transform are unitary, the effective SNR is approximately $\frac{2}{2\gamma} = 10^{(SNR/10)}$, which matches the actual SNR.
 
