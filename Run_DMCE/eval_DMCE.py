@@ -97,7 +97,7 @@ def main():
     # 2. prepare the test dataset
     # ========================================================================
 
-    training_dataset = Channels(training_args, is_train=False)
+    training_dataset = Channels(training_args, is_train=True)
     # Range of SNR, test channels and hyper-parameters
     snr_range = np.arange(-10, 32.5, 2.5)
     # snr_range = np.arange(-10, 40, 10)
