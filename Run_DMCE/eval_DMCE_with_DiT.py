@@ -88,7 +88,7 @@ def main():
     # ========================================================================
     # 2. prepare the test dataset
     # ========================================================================
-    training_dataset = Channels(training_args, is_train=False)
+    training_dataset = Channels(training_args, is_train=True)
     snr_range = np.arange(-10, 32.5, 2.5)
     spacing_range = np.asarray(args.spacing)
     pilot_alpha_range = np.asarray(args.pilot_alpha)
