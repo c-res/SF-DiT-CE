@@ -123,11 +123,11 @@ You may also adjust other parameters to obtain additional variants of SF-DiT-CE.
 
 ### Run the Score model on our dataset
 
-Please refer to the [score-based-channels code](https://github.com/utcsilab/score-based-channels). You can use our dataset and pretrained checkpoints in `score_checkpoints`.
+Please refer to the [score-based-channels code](https://github.com/utcsilab/score-based-channels).
 
 ### Run DMCE on our dataset
 
-Please refer to the [DMCE code](https://github.com/benediktfesl/Diffusion_channel_est). You can use our dataset and pretrained checkpoints in `DMCE_checkpoints`.
+Please refer to the [DMCE code](https://github.com/benediktfesl/Diffusion_channel_est). 
 
 For DMCE, we provide training and evaluation scripts. Please follow the steps below:
 
